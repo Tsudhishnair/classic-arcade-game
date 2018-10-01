@@ -2,8 +2,6 @@
 
 Project made as part of Udacity's Nanodegree program
 
-**Playable:** [here](https://prawesome.github.io/udacity-fe2-nd/Project%202/)
-
 ## Objective
 
 To spend the maximum amount of time possible in the game area without dying
