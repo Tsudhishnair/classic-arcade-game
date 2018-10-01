@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Arcade game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="js/resources.js"></script>
+
+    <div class="score-container">
+        <h2>
+            <span>Score: </span>
+            <span class="score">0</span>
+        </h2>
+    </div>
+
+    <div class="char-selector-outter">
+        <div class="char-selector-inner">
+            <h3>Choose character</h3>
+            <div class="row">
+                <img class="item" src="images/char-boy.png" alt="boy" data-value="images/char-boy.png">
+                <img class="item" src="images/char-cat-girl.png" alt="cat-girl" data-value="images/char-cat-girl.png">
+                <img class="item" src="images/char-horn-girl.png" alt="horn-girl" data-value="images/char-horn-girl.png">
+                <img class="item" src="images/char-pink-girl.png" alt="pink-girl" data-value="images/char-pink-girl.png">
+                <img class="item" src="images/char-princess-girl.png" alt="princess" data-value="images/char-princess-girl.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-outter">
+        <div class="popup-inner">
+            <div class="popup-star-container">
+                <span class="win-star-1">
+                    <img src="images/Star.png" alt="1 star">
+                </span>
+                <span class="win-star-2">
+                    <img src="images/Star.png" alt="2 stars">
+                </span>
+                <span class="win-star-3">
+                    <img src="images/Star.png" alt="3 stars">
+                </span>
+            </div>
+            <h1>Game over!</h1>
+            <div class="pop-score-container">
+                <h3>Your score: </h3>
+                <span class="pop-score">0</span>
+            </div>
+
+            <div class="refresh-container">
+                <i class="fa fa-refresh fa-4x"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/engine.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
