@@ -2,6 +2,8 @@
 
 Project made as part of Udacity's Nanodegree program
 
+https://classicarcadegame.netlify.app/
+
 ## Objective
 
 To spend the maximum amount of time possible in the game area without dying
